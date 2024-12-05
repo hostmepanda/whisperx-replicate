@@ -1,4 +1,7 @@
 build:
+  run:
+    - chmod +x build.sh 
+    - ./build.sh
   cuda: "12.1"
   gpu: true
   system_packages:
