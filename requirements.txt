@@ -8,17 +8,17 @@
 #git+https://github.com/m-bain/whisperx.git
 
 # PyTorch and related libraries (CUDA 12.1 compatible)
-torch==2.1.0+cu121
-torchvision==0.16.0+cu121
-torchaudio==2.1.0+cu121
---extra-index-url https://download.pytorch.org/whl/cu121
+torch==1.10.0+cu102
+torchvision==0.16.0+cu102
+torchaudio==2.1.0+cu102
+--extra-index-url https://download.pytorch.org/whl/cu102
 
 # Additional dependencies
 ffmpeg-python
 numpy<2.0
 
 # pyannote.audio (latest version compatible with PyTorch 2.x)
-pyannote.audio
+pyannote.audio==0.0.1
 
 # WhisperX from GitHub
 git+https://github.com/m-bain/whisperx.git
